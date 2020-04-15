@@ -38,4 +38,5 @@ void
 sig_int(int signo)
 {
 	printf("interrupt\n%% ");
+	fflush(NULL);
 }
